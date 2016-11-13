@@ -1,6 +1,5 @@
 <?php 
 
-//autor:mariz ruiz
 //descripcion: aqui se muestra la imagen princiapl del sistema que es una vista aerea del copem  
 
 session_start();

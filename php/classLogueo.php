@@ -1,6 +1,6 @@
 <?php
 /*
- * descripcion: en esta clase php se valida si el usaurio esta logueado
+ * descripcion: en esta clase php se valida si el usuario esta logueado
  */
 
 class validar{
@@ -17,7 +17,7 @@ alert('Error: Usted no esta logueado');
 
 <?php
 
- echo ("<html><head><meta http-equiv='REFRESH' content='0;URL=../../index.php'/></head><body></body></html>");
+ echo ("<html><head><meta http-equiv='REFRESH' content='0;URL=../../php/vacio.php'/></head><body></body></html>");
 return false;
 	
 }else { return true;

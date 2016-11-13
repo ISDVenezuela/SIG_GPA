@@ -124,39 +124,38 @@ echo ("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w
                                      
 					<div class="Contenedor-Editable-Fondo" id="Vista">
 					  
-                                             <div class="Contenedor-Editable" id="Menu"> <!-- Comienzo del Menu -->
-						 
-                              <a  href="../cargar_repuestos/cargar_inventario.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Cargar  Inventario </span></a>
-									<a href="../cargar_repuestos/cargado_manual.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Cargado Manual </span></a>
-									<a href="../cargar_repuestos/cargar_excel.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Cargado De .XLS </span></a>
-						    
-                                     <span class="PuntoHo_Cortico"></span>
-                                     <a  href="../inventario/verinventario.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Consultar Inventario </span></a>
-                                     <span class="PuntoHo_Cortico"></span>
-          				            <a  href="../estado_repuestos/nivel_estado.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Estado de Repuestos </span></a>
-          				            <span class="PuntoHo_Cortico"></span>
-          				            <a  href="../macollas/diagrama.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Gestión de Macollas </span></a>
-                                    <a href="../macollas/crear_macolla.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu">Crear Macolla</span></a>
-                                    <a href="../macollas/listarmacollas.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu">Listar Macollas</span></a>
-                                    
-                                                    <?php $admin=$_SESSION['minick']; $admin=strtoupper($admin);   if ($admin=="ADMINISTRADOR") { ?>                      
-                                                    <span class="PuntoHo_Cortico"></span>
-				          	    <a   href="../usuario/lista_usuarios.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Administrar Usuarios </span></a>                                                  
-                                                      <?php
-			    			    
-						     }elseif ($admin=="ROOT"){?> 
- 
-                                                    <span class="PuntoHo_Cortico"></span>
-				          	    <a   href="../usuario/lista_usuarios.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Administrar Usuarios </span></a>                                                  
-                                                    <span class="PuntoHo_Cortico"></span>
-				          	    <a   href="../movimientos/movimientos.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Movimientos </span></a> 
-				          	    <?php } 
-                                                        ?>        
-                                                          <!-- FIN DEL MENU -->
-                                               
-				          	   
+            <div class="Contenedor-Editable" id="Menu"> <!-- Comienzo del Menu -->
 
-					   </div>
+              <!-- MENU DEL ADMINISTRADOR -->
+              <?php $admin=$_SESSION['minick']; $admin=strtoupper($admin);   
+                if ($admin=="ADMIN") { ?>                      
+                  <span class="PuntoHo_Cortico"></span>
+                  <a   href="../usuario/lista_usuarios.php" target="principal" class="Contenedor-Texto-Menu">
+                  <span class="Text-menu" > Administrar Usuarios </span></a>                                                  
+                <?php } else { ?>
+						 
+                  <a  href="../cargar_repuestos/cargar_inventario.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Cargar  Inventario </span></a>
+							   <a href="../cargar_repuestos/cargado_manual.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Cargado Manual </span></a>
+							   <a href="../cargar_repuestos/cargar_excel.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Cargado De .XLS </span></a>
+						    
+                  <span class="PuntoHo_Cortico"></span>
+                                     
+                  <a  href="../inventario/verinventario.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Consultar Inventario </span></a>
+                                     
+                  <span class="PuntoHo_Cortico"></span>
+          				            
+                  <a  href="../estado_repuestos/nivel_estado.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Estado de Repuestos </span></a>
+          				            
+                  <span class="PuntoHo_Cortico"></span>
+          				            
+                  <a  href="../macollas/diagrama.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Gestión de Macollas </span></a>
+                  <a href="../macollas/crear_macolla.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu">Crear Macolla</span></a>
+                  <a href="../macollas/listarmacollas.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu">Listar Macollas</span></a>
+
+                <?php } ?> 
+               <!-- FIN DEL MENU -->
+
+					  </div>
                                             <!-- este es el div principal-->
 						
 							
