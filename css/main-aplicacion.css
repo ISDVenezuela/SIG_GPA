@@ -1,0 +1,732 @@
+body{
+	margin:0;
+	padding:0;
+	width:1000px;
+	min-width:1000px;
+	max-width:1000px;
+	overflow-x:hidden;
+	}
+
+
+.Contenedor, .Contenedor-con-Bordes, .Contenedor-con-sombra, .Contenedor-con-Imagen, .Contenedor-Texto-Menu, .Contenedor-Texto-sub-Menu, .Contenedor-Fondo-Calendario, .Contenedor-Semana, .Contenedor-Seleccion, select , .Texto-Semana, .Texto-Dia, .Dias-Semana, .Texto-Dia-aux, .Titulo-Aplicacion, #Nombre-Aplicacion, .Separador_Modulo, .Sub-Titulo-Aplicacion, .Sub-Titulo-Formulario-aux, .Sub-Titulo-Formulario, .Sub-Titulo-Formulario-aux, .Sub-Titulo-Formulario, .Sub-Titulo-Texto, .Lista-Aplicacion , .Lista-Fondo-Oscuro, .Lista-Fondo-Claro, .Lista-Elemento-Claro-primero, .Lista-Elemento-Claro-segundo, .Lista-Elemento-Claro-tercero, .Lista-Elemento-Oscuro-primero, .Lista-Elemento-Oscuro-segundo, .Lista-Elemento-Oscuro-tercero, .Contenedor-Formulario, .Titulo-Formulario, .Principio-Boton, .Final-Boton, .Boton-Calendario, .Contenedor-Table, .Tabla-Aplicacion , .Tabla-Fondo, .Tabla-Elemento, .Tabla-Elemento-Encabezado, .Contenedor-Elemneto-Formulario, #Main-breadcrumbs, #Main-Traza , #Main-Traza-aux, #Main-Logo, .nivel-rojo, .nivel-amarillo, .nivel-verde
+{
+    border-style:none;
+    padding:0px;
+    margin:0px;
+	
+} 
+.Contenedor-Editable, .Contenedor-Editable-Fondo, .Fondo-puntoVe, .PuntoHo_Cortico, .Contenedor-Texto-sub-Menu,.Contenedor-Texto-Menu, .Contenedor-Fondo-Calendario, .Contenedor-Semana, .Contenedor-Seleccion,  .Texto-Semana, .Texto-Dia, .Dias-Semana, .Texto-Dia-aux, .Titulo-Aplicacion, .Separador_Modulo , .Sub-Titulo-Aplicacion, .Sub-Titulo-Formulario, .Sub-Titulo-Texto, .Lista-Aplicacion, .Lista-Fondo-Oscuro, .Lista-Fondo-Claro, .Lista-Elemento-Claro-primero, .Lista-Elemento-Claro-segundo, .Lista-Elemento-Claro-tercero, .Lista-Elemento-Oscuro-primero, .Lista-Elemento-Oscuro-segundo, .Lista-Elemento-Oscuro-tercero, .Contenedor-Formulario, .Titulo-Formulario, .Principio-Boton, .Final-Boton, .Boton-Calendario, .Contenedor-Table, .Tabla-Aplicacion , .Tabla-Fondo,.Tabla-Elemento, .Tabla-Elemento-Encabezado, #Main-Traza , #Main-Traza-aux, #Main-Logo,.nivel-rojo, .nivel-amarillo, .nivel-verde
+{
+    float:left;
+    background-repeat:no-repeat; 
+} 
+.Texto-Identificador, .Text-menu-aux, .Texto_Presidente, DIV#textual, .Contenedor-Texto-Menu, .Contenedor-Texto-sub-Menu, .Texto-Semana, .Texto-Dia, .Dias-Semana, .Texto-Dia-aux, .Titulo-Aplicacion, #Nombre-Aplicacion, .Sub-Titulo-Aplicacion, .Sub-Titulo-Formulario-aux, .Sub-Titulo-Formulario, .Sub-Titulo-Texto, .Titulo-Formulario, input, .Boton, .Tabla-Elemento,.Tabla-Elemento-Encabezado,.nivel-rojo, .nivel-amarillo, .nivel-verde
+{
+    font-size:8pt; 
+    font-family:Arial, sans-serif;
+    text-decoration:none;
+    border-style:none; 
+    text-align:left;    
+    display:inline;
+}
+.Contenedor-Texto-sub-Menu, .Sub-Titulo-Aplicacion, .Sub-Titulo-Formulario-aux, .Sub-Titulo-Formulario, .Sub-Titulo-Texto, .Boton, .Texto-Identificador
+{
+  color:#666666;
+ 
+  
+}
+
+
+.Sub-Titulo-Formulario-Filtrado
+{
+
+ color:#666666;
+width:450px;
+font-size : 12px;
+margin:0;
+font-family:Arial, sans-serif;
+font-weight:bold;
+}
+
+.Sub-Titulo-Formulario-Filtrado:hover
+{
+
+    cursor:pointer;
+    color:#CC0000;
+
+}
+
+
+.Contenedor-Texto-Menu, .Tabla-Elemento
+{
+  color:#333333;
+}
+.Titulo-Aplicacion, .Sub-Titulo-Aplicacion, .Sub-Titulo-Formulario-aux, .Sub-Titulo-Formulario, .Titulo-Formulario, .Boton, .Tabla-Elemento-Encabezado, .nivel-rojo, .nivel-amarillo, .nivel-verde
+{
+   font-weight:bold;
+}
+.Titulo-Aplicacion, .Titulo-Formulario
+{
+    color:#CC0000;
+}
+.Contenedor-Editable-Fondo
+{
+   background-image:url(../imagenes/fondo.png);
+   background-repeat:repeat-y;
+   margin:-7px 0px 0px 0px;
+}
+.Fondo-puntoVe
+{
+   background-image:url(../imagenes/puntoVe.gif);
+   width:1px;
+   height:90px;
+   margin:0px 0px 0px 0px;
+}  
+.EsquinasBread
+{
+   width:10px; 
+   height:27px;
+}
+.Contenedor-Separador
+{
+    background-repeat:repeat-y;
+    background-image:url(../imagenes/separadorNeg.png);
+    width:1px; 
+    height:55px;
+    margin:10px 0px 0px 15px;
+}
+.Contenedor-con-Bordes 
+{
+    border-style:none;
+    border-collapse:inherit;
+    border-top-style:solid;
+    border-width:1px; 
+    border-color:#CC0000; 
+    width:1000px;
+    height:20px;
+}
+.Contenedor-con-sombra 
+{
+    background-repeat:repeat-y;
+    margin:0px;    
+}
+#Contenedor-Elemneto-Formulario-aux
+{
+   margin:15px 0px 0px 0px;
+   height:auto;
+}
+.Boton
+{
+   background-image:url(../imagenes/fondo_boton.png);
+   height:20px;
+   width:auto;
+   margin:0px -7px 0px 0px;
+   text-align:center;
+   border:none;
+   float:left;
+   font-size:12px;
+}
+.Boton-Calendario
+{
+  background-image:url(../imagenes/boton_date.png);
+  height:15px;
+  width:16px;
+  margin:10px 10px 0px 0px;
+}
+.Principio-Boton
+{
+   background-image:url(../imagenes/esquina_izquierda_botones.gif);
+   width:10px; 
+   height:20px;
+   margin:0px -5px 0px 0px; 
+}
+.Final-Boton
+{
+   background-image:url(../imagenes/esquina_derecha_botones.gif);
+   width:10px; 
+   height:20px;
+   margin:0px 10px 0px 0px;
+}
+.PuntoHo_Cortico
+{
+    background-repeat:repeat-x;
+    background-image:url(../imagenes/puntoHo.gif);
+    background-color:transparent;
+    height:15px; 
+    margin:10px 0px -15px 0px;
+}
+.PuntoHo_Cortico
+{
+    width:140px;
+    margin:10px 0px -10px 0px;
+}	
+.Fondo-puntoVe
+{
+   background-image:url(../imagenes/puntoVe.gif);
+   width:1px;
+   height:90px;
+   margin:0px 0px 0px 0px;
+   background-repeat: repeat-y;
+ 
+   
+}  
+DIV#Vista
+{
+     background-position:169px;
+} 
+DIV#Menu, DIV#Menu-auxiliar-superior
+{  
+    width:169px; 
+    height:820px; 
+    background-image:url(../imagenes/degradacion.gif);
+    background-repeat:repeat-x;
+}
+DIV#Menu-auxiliar-superior
+{
+     height:7px;
+     background-image:url(../imagenes/cosita.png);
+}
+DIV#Region-Editable
+{  
+      width:595px;
+      margin:0px 0px 15px 0px;
+}	   
+ 
+img
+{
+     border-style:none;
+}
+select
+{
+        height:20px;
+	margin:10px 0px 0px 5px;
+	display:inline;
+	border-style:double;
+	border-color:#CCCCCC;
+	border-width:1px;
+	color:#333333;
+}
+input, .input-style
+{
+        border-style:double;
+	border-color:#CCCCCC;
+	border-width:1px;
+	color:#333333;
+}
+.check-style
+{
+   border-width:0px;
+}
+
+a:hover
+{
+    cursor:pointer;
+}
+
+.Contenedor-Texto-Menu:hover, .Contenedor-Texto-sub-Menu:hover
+{  
+    background-image:url(../imagenes/flecha.gif);
+    color:#CC0000;
+}
+.Contenedor-Texto-sub-Menu:hover
+{  
+    background-image:url(../imagenes/flechita.gif);
+   
+}
+
+DIV#Main-externo 
+{
+    width:760px;
+    text-align:left;
+}
+DIV#Main-header 
+{
+    width:790px; 
+    height:72px;
+    margin:0px 0px 0px 0px;
+	
+}
+DIV#Main-BackCuerpoRight 
+{
+    background-image:url(../imagenes/sombrapaginaI.png);
+    width:810px; 
+    background-position:right;
+    float:right;
+}
+DIV#Main-Contenedor-footer 
+{ 
+        margin:0px 0px 0px 15px;
+	display:inline;
+	float:left;
+}
+DIV#Main-BackCuerpoLeft 
+{
+    background-image:url(../imagenes/sombrapaginaD.gif);
+    background-position:left;
+    float:left;
+}
+span#Main-Logo 
+{
+    background-image:url(../imagenes/logorojo.png); 
+    width:170px;
+    height:70px;
+}
+
+#Contenedor-Degradado
+{
+    width:620px;
+    height:20px;
+    margin:29px 0px 0px 0px ;
+    float:left;
+}
+DIV#Logo-Continuacion 
+{
+    background-image:url(../imagenes/degradacion_roja-aux.png); 
+    width:595px;
+    height:20px;
+    margin:0px;
+    float:left;
+    
+}
+DIV#Logo-Medio 
+{
+    background-color:#CC0000;
+    width:315px;
+    height:20px;
+    margin:0px;
+    float:left;
+}
+DIV#Main-Cuerpo 
+{
+    width:780px; 
+    margin:0px 0px 0px 15px;
+    padding:0px;
+}
+DIV#Main-Identificador_usuario 
+{
+  background-image:url(../imagenes/degradadoBien.png);
+}
+DIV#Main-breadcrumbs 
+{
+	position:relative;
+    background-color: transparent;
+    width:1000px; 
+    height:27px;
+}
+#EsquinaBreadIzquierda
+{
+    background-image:url(../imagenes/esquinaizq.gif);
+	float:left;
+}
+DIV#Main-Traza
+{  
+    background-color: #666666;
+    width:990px;
+    height:20px;
+    color:#FFFFFF;
+    
+}
+DIV#Main-Traza-aux 
+{  
+    background-image:url(../imagenes/imagen_superior_menu.gif);
+    width:170px; 
+    height:20px;
+    color:#FFFFFF;
+}
+#EsquinaBreadDerecha
+{
+    background-image:url(../imagenes/esquinader.gif);
+    float:right;
+} 
+span#Main-Usuario 
+{
+    width:535px;
+    height:10px;
+    margin: 3px 0px 0px 15px;
+} 
+span#Main-Fecha 
+{
+    width:170px;		
+    height:15px;
+    margin: 3px 15px 0px 0px;
+    text-align:right;
+    float:right; 
+} 
+
+
+
+
+
+
+
+
+
+
+.Text-menu
+{  
+    font-size : 12px;  
+    margin:0px 0px 0px 12px;
+    
+}
+.Contenedor-Texto-Menu
+{   
+    width:159px; 
+    margin:5px 0px 0px 8px;
+} 
+.Contenedor-Texto-sub-Menu
+{
+   margin:3px 0px 0px 20px;
+   width:139px; 
+}
+		   		       
+span#Nombre-Aplicacion
+{
+    background-color:transparent;
+	color:#FFFFFF;
+    margin:1px 0px 0px 0px;
+    float:right;
+	font-size : 16px; 
+	font-family: Arial, sans-serif;
+  
+	
+}
+.Lista-Aplicacion, .Lista-Fondo-Oscuro, .Lista-Fondo-Claro
+{
+  width:580px;
+  margin:10px 0px 0px 0px;
+ 
+ 
+}
+ .Lista-Elemento-Oscuro, .Lista-Elemento-Oscuro-primero, .Lista-Elemento-Oscuro-segundo, .Lista-Elemento-Oscuro-tercero
+{
+  background-color:#E8E8E8;
+  margin:0px ;
+}
+.Lista-Fondo-Claro , .Lista-Elemento-Claro-primero, .Lista-Elemento-Claro-segundo, .Lista-Elemento-Claro-tercero	
+{
+  background-color:#FFFFFF;
+  margin:0px;
+}
+.Lista-Elemento-Claro-primero, .Lista-Elemento-Claro-segundo, .Lista-Elemento-Claro-tercero, .Lista-Elemento-Oscuro-primero, .Lista-Elemento-Oscuro-segundo, .Lista-Elemento-Oscuro-tercero
+{
+  width:170px;
+  margin:0px 0px 0px 1px;
+  height:20px;
+  
+}
+.Lista-Fondo-Oscuro
+{
+  margin:0px;
+  background-color:#CCCCCC;
+}
+.Lista-Elemento-Oscuro-primero, .Lista-Elemento-Claro-primero
+{
+  margin:0px;
+  width:238px;
+}
+
+
+
+
+.Contenedor-Fondo-Calendario
+{
+  height:157px;
+  width:185px;
+  border-color:#999999;
+  background-color:#E8E8E8;
+  border-width:1px;	
+  border-style:double;
+  margin:10px 0px 0px 0px;
+}
+.Contenedor-Semana
+{
+  height:20px;
+  width:175px;
+  margin:5px 0px 7px 5px;
+  padding:0px 0px 0px 0px;
+  background-color:#999999;
+  
+}
+.Contenedor-dia
+{
+  height:20px;
+  width:175px;
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 5px;
+ 
+  
+}
+.Titulo-Aplicacion, .Sub-Titulo-Aplicacion, .Sub-Titulo-Formulario-aux, .Sub-Titulo-Formulario, .Sub-Titulo-Texto
+{
+   font-size:12px;
+   width:570px;
+   margin:20px 0px 0px 15px;
+}
+.Titulo-Formulario
+{
+   font-size:12px;
+   width:570px;
+}
+.Sub-Titulo-Formulario
+{   
+    width:450px;
+}   
+.Sub-Titulo-Formulario-aux
+{
+  width:400px;
+  height:15px;
+  display:inline;
+
+  
+}
+.Sub-Titulo-Texto, Sub-Titulo-Aplicacion{
+     margin:20px 0px 0px 15px;
+}
+
+.Sub-Titulo-Formulario-aux, .Sub-Titulo-Formulario
+{
+   margin:0;
+}
+.Contenedor-Seleccion
+{
+  height:32px;
+  width:185px;
+ 
+}
+#Mes
+{
+  width:105px;
+}
+#ubicaccion
+{
+  width:110px;
+  margin:10px 0px 0px 10px;
+  
+}
+.Texto-Semana
+{
+  color:#ffffff;
+  font-weight:bold;
+  margin:2px 0px 0px 0px;
+  font-size:12px;
+  padding:0px 0px 0px 0px;
+  width:24px;
+  text-align:right;
+
+}
+#Dia-actual
+{
+  font-weight:bold;
+  color:#CC0000;
+}
+.Texto-Dia:hover, #Dia-actual:hover
+{
+  font-weight:bold;
+  background-color:#CC0000;
+  color:#FFFFFF;
+  cursor:pointer;
+}
+.Texto-Dia
+{
+  height:18px;
+  width:20px;
+  font-size:12px;
+  margin:0px 0px 0px 2px;
+  color:#333333;
+  
+  
+
+}
+.Texto-Dia-aux
+{
+  font-size:12px;
+  margin:0px 0px 0px 2px;
+  width:15px;
+  text-align:right;
+}
+
+.Dias-Semana
+{
+  width:24px;
+  height:90px;
+  margin:0px 0px 0px 0px; 
+}
+
+DIV#Logo-Final
+{
+    background-image:url(../imagenes/esquina_redonda_roja.png); 
+	width:10px;
+    height:20px;
+    margin:0px;
+    float:left;
+}   
+.Separador_Modulo 
+{
+    background-image:url(../imagenes/separador_modulo.png); 
+	width:580px;
+	height:15px; 
+	margin:10px 0px -10px 15px;
+	background-repeat:no-repeat; 	
+}
+.Contenedor-Formulario
+{
+    width:570px;
+    margin:15px 0px 0px 0px;
+    padding:5px 0px 0px 10px;
+    border:none;
+	
+	
+}
+.Contenedor-Elemneto-Formulario
+{
+  margin:5px 0px 0px 0px;
+}
+#Encabezado
+{
+  background-color:#999999;
+}
+.Tabla-Aplicacion , .Tabla-Fondo
+{
+    width:570px;
+    margin:15px 0px 0px 0px;
+    border-color:#FFFFFF;
+}
+.Tabla-Fondo
+{
+   height:20px;
+   width:570px;
+   margin:0px 0px 1px 0px;
+}
+.Tabla-Elemento, .Tabla-Elemento-Encabezado, .nivel-rojo, .nivel-amarillo, .nivel-verde
+{
+   height:15px;
+   width:100px;
+   font-size:12px;
+   background-color:#E8E8E8;
+   margin:0px 1px 0px 0px;
+   padding:0px 0px 0px 1px;
+}
+.Tabla-Elemento-Encabezado
+{
+   width:100px;
+   background-color:#999999;
+   text-align:center;
+   color:#FFFFFF;
+
+}
+.Tabla-Elemento-opera, .Tabla-Elemento-Encabezado-opera
+{
+   height:15px;
+   width:60px;
+   font-size:12px;
+   background-color:#E8E8E8;
+   margin:0px 1px 0px 0px;
+   padding:0px 0px 0px 1px;
+}
+.Tabla-Elemento-Encabezado-opera
+{
+   height:15px;
+   width:60px;
+   background-color:#999999;
+   text-align:center;
+   color:#FFFFFF;
+   margin:0px 1px 0px 0px;
+   padding:0px 0px 0px 1px;
+}
+
+.nivel-rojo{
+
+    color:red;
+}
+.nivel-amarillo{
+    color:yellow;
+}
+.nivel-verde
+{
+    color:green;
+}
+#imagen_principal img {
+	
+	height:600px;
+   width:612px;
+   background-color:#999999;
+   text-align:center;
+	margin-top:2px; 	
+	margin-left:4px;
+	padding:0px;
+		
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 8px;	
+		
+	
+	
+	}
+/*Nuevos CSS*/
+.contenedorTabla{
+	width:100%;
+	height:200px;
+	overflow:hidden;
+	overflow-y:scroll;
+	}
+.tabla_modelo{
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+.tabla_modelo th{
+	background-color:#333;
+	color:#FFF;
+	}
+.tabla_modelo th, .tabla_modelo td{
+	padding:5px;
+	border-top:1px #000 solid;
+	border-left:1px #000 solid;
+	}
+.tabla_modelo th:last-child, .tabla_modelo td:last-child{
+	border-right:1px #000 solid;
+	}			
+.tabla_modelo tr:last-child td{
+	border-bottom:1px #000 solid;
+	}	
+.tabla_modelo td .quitar{
+	color:#06C;
+	cursor:pointer;
+	}
+.otrasMacollas{
+	position:absolute;
+	padding-top:40px;
+	background-color:#000;
+	width:100px;
+	height:60px;
+	border:30px solid #999;
+	cursor:pointer;
+	color:#FFF;
+	text-align:center;
+	z-index:9;
+	}	
+	
+#macollapos{
+	position:absolute;
+	top:50px;
+	left:50px;
+	padding-top:40px;
+	background-color:#333;
+	border:1px solid #111;
+	width:100px;
+	height:60px;
+	/*border-radius:70px;*/
+	cursor:pointer;
+	color:#FFF;
+	text-align:center;
+	z-index:10;
+	}
+.enmovimiento{
+	background-color:#666;
+	}			
