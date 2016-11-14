@@ -133,24 +133,19 @@ echo ("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w
                   <a   href="../usuario/lista_usuarios.php" target="principal" class="Contenedor-Texto-Menu">
                   <span class="Text-menu" > Administrar Usuarios </span></a>                                                  
                 <?php } else { ?>
-						 
-                  <a  href="../cargar_repuestos/cargar_inventario.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Cargar  Inventario </span></a>
-							   <a href="../cargar_repuestos/cargado_manual.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Cargado Manual </span></a>
-							   <a href="../cargar_repuestos/cargar_excel.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Cargado De .XLS </span></a>
+						      <a  href="imagen_principal.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > SOLICITUD COMPRA MATERIAL </span></a>
+                  <a  href="../solicitud_compra/agregar_compra.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu" > Agregar Solicitud Compra </span></a>
+							   <a href="../solicitud_compra/modificar_compra.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Modificar Solicitud Compra </span></a>
+							   <a href="../solicitud_compra/eliminar_compra.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Eliminar Solicitud Compra </span></a>
+                 <a href="../solicitud_compra/consultar_compra.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Consultar Solicitud Compra </span></a>
 						    
                   <span class="PuntoHo_Cortico"></span>
                                      
-                  <a  href="../inventario/verinventario.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Consultar Inventario </span></a>
-                                     
-                  <span class="PuntoHo_Cortico"></span>
-          				            
-                  <a  href="../estado_repuestos/nivel_estado.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Estado de Repuestos </span></a>
-          				            
-                  <span class="PuntoHo_Cortico"></span>
-          				            
-                  <a  href="../macollas/diagrama.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > Gestión de Macollas </span></a>
-                  <a href="../macollas/crear_macolla.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu">Crear Macolla</span></a>
-                  <a href="../macollas/listarmacollas.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu">Listar Macollas</span></a>
+                  <a  href="imagen_principal.php" target="principal" class="Contenedor-Texto-Menu"><span class="Text-menu" > SOLICITUD CONTRATO DE SERVICIO </span></a>
+                  <a  href="../solicitud_servicio/agregar_servicio.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu" > Agregar Solicitud Servicio </span></a>
+                 <a href="../solicitud_servicio/modificar_servicio.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Modificar Solicitud Servicio </span></a>
+                 <a href="../solicitud_servicio/eliminar_servicio.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Eliminar Solicitud Servicio </span></a>
+                 <a href="../solicitud_servicio/consultar_servicio.php" class="Contenedor-Texto-sub-Menu" target="principal" ><span class="Text-menu"> Consultar Solicitud Servicio </span></a>
 
                 <?php } ?> 
                <!-- FIN DEL MENU -->

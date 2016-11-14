@@ -110,10 +110,15 @@ echo ("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w
                                     <span class="Sub-Titulo-Formulario">Extension </span>
                                         <input type="text" name="extension" id="extension" onkeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;"/>
                                 </div>
+
                                 <div class="Contenedor-Elemneto-Formulario">
                                     <span class="Sub-Titulo-Formulario">Tipo de Usuario </span>
-                                        <input type="text" name="tipo_usuario" id="tipo_usuario" maxlength="1" onkeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;"/>
+                                        <select name="tipo_usuario" id="tipo_usuario" >
+                                            <option value="1">Superintendente</option>
+                                            <option value="2">Analista</option>
+                                        </select>
                                 </div>
+
                                 <div class="Contenedor-Elemneto-Formulario">
                                     <span class="Sub-Titulo-Formulario"> Indicador </span>
                                         <input type="text" name="id_usuario" id="id_usuario" />
